@@ -1,0 +1,22 @@
+1581942754094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\emers\\AppData\\Local\\Temp\\rust_mozprofileXnqee7"
+*** You are running in headless mode.
+1581942754511	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581942754753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581942754753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581942754753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581942754753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581942755789	Marionette	INFO	Listening on port 7413
+1581942756111	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://mercedesdealerqa.azurewebsites.net/assets/js/datatable/jquery.dataTables.min.css, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://mercedesdealerqa.azurewebsites.net/assets/config.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://mercedesdealerqa.azurewebsites.net/assets/config.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://mercedesdealerqa.azurewebsites.net/assets/js/datatable/jquery.dataTables.min.css, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://mercedesdealerqa.azurewebsites.net/assets/config.json, line 2: SyntaxError: unexpected token: ':'
+1581942801884	Marionette	INFO	Stopped listening on port 7413
+: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+

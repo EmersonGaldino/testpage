@@ -1,0 +1,12 @@
+{
+  "vendasNegativas": {
+    "valorHoras": "125",
+    "vendidas": "20",
+    "horasDisponiveis": "10"
+  },
+  "vendasPositivas": {
+    "valorHoras": "125",
+    "vendidas": "20",
+    "horasDisponiveis": "10"
+  }
+}
