@@ -4,16 +4,17 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-import json
 
 
 url = "https://mercedesdealerqa.azurewebsites.net/"
 
 option = Options()
 option.headless = True
+#option.binary = 'C:\Program Files\Mozilla Firefox\firefox.exe'
 driver = webdriver.Firefox()
 driver.get(url)
 time.sleep(2)
+
 
 login = driver.find_element_by_id("usuario")
 login.send_keys('32556773863')
@@ -42,7 +43,7 @@ time.sleep(2)
 # Como funciona
 driver.find_element_by_css_selector(".fa-question-circle").click()
 # time.sleep(2)
-# driver.find_element_by_id("#perido").scrollIntoView()
+# driver.find_element_by_id("#perido").scrollp
 # time.sleep(4)
 # driver.find_element_by_id("#comoParticipar").scrollIntoView()
 # time.sleep(4)
