@@ -26,8 +26,12 @@ password.send_keys('Yan@123456')
 time.sleep(5)
 driver.find_element_by_css_selector(".bt-blue").click()
 
-# time.sleep(1)
-# driver.find_element_by_css_selector(".btn-primary").click()
+
+time.sleep(5)
+driver.find_element_by_css_selector(".bt-blue").click()
+time.sleep(1)
+driver.find_element_by_css_selector(".btn-primary").click()
+
 
 # time.sleep(10)
 # Selecionar aceite termo
@@ -38,13 +42,17 @@ driver.find_element_by_css_selector(".bt-blue").click()
 
 # time.sleep(2)
 # abrir menu
-# driver.find_element_by_css_selector(".sidebar-title").click()
+
+driver.find_element_by_css_selector(".sidebar-title").click()
+
 # time.sleep(2)
 # Juntos na estrada
 # driver.find_element_by_css_selector(".fa-chevron-down").click()
 # time.sleep(2)
 # Como funciona
-# driver.find_element_by_css_selector(".ng-scope").click()
+
+driver.find_element_by_css_selector(".ng-scope").click()
+
 # time.sleep(2)
 # driver.find_element_by_id("#perido").scrollp
 # time.sleep(4)

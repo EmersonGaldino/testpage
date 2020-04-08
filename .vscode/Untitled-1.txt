@@ -1,0 +1,94 @@
+{
+    "CDPeriodoPromocional": [
+        {
+            "Periodo": 1,
+            "DataInicial": "2020-01-01",
+            "DataFinal": "2020-05-31",
+            "DataLimiteParticipacao": "2020-03-16 23:59:59",
+            "Apuracao": "Jun/2020",
+            "Premiacao": "Jul/2020",
+            "Meses": [
+                {
+                    "Mes": "1",
+                    "DataInicio": "01/01/2020",
+                    "DataFim": "29/02/2020"
+                },
+                {
+                    "Mes": "2",
+                    "DataInicio": "01/02/2020",
+                    "DataFim": "05/03/2020"
+                },
+                {
+                    "Mes": "3",
+                    "DataInicio": "01/03/2020",
+                    "DataFim": "05/04/2020"
+                },
+                {
+                    "Mes": "4",
+                    "DataInicio": "06/04/2020",
+                    "DataFim": "05/05/2020"
+                },
+                {
+                    "Mes": "5",
+                    "DataInicio": "06/05/2020",
+                    "DataFim": "05/06/2020"
+                }
+            ]
+        },
+        {
+            "Periodo": 2,
+            "DataInicial": "2020-06-01",
+            "DataFinal": "2020-08-31",
+            "DataLimiteParticipacao": "2020-06-16 23:59:59",
+            "Apuracao": "Set/2020",
+            "Premiacao": "Out/2020",
+            "Meses": [
+                {
+                    "Mes": "6",
+                    "DataInicio": "06/06/2020",
+                    "DataFim": "05/07/2020"
+                },
+                {
+                    "Mes": "7",
+                    "DataInicio": "06/07/2020",
+                    "DataFim": "05/08/2020"
+                },
+                {
+                    "Mes": "8",
+                    "DataInicio": "06/08/2020",
+                    "DataFim": "05/09/2020"
+                }
+            ]
+        },
+        {
+            "Periodo": 3,
+            "DataInicial": "2020-09-01",
+            "DataFinal": "2020-12-31",
+            "DataLimiteParticipacao": "2020-09-16 23:59:59",
+            "Apuracao": "Jan/2021",
+            "Premiacao": "Fev/2021",
+            "Meses": [
+                {
+                    "Mes": "9",
+                    "DataInicio": "06/09/2020",
+                    "DataFim": "05/10/2020"
+                },
+                {
+                    "Mes": "10",
+                    "DataInicio": "06/10/2020",
+                    "DataFim": "05/11/2020"
+                },
+                {
+                    "Mes": "11",
+                    "DataInicio": "06/11/2020",
+                    "DataFim": "05/12/2020"
+                },
+                {
+                    "Mes": "12",
+                    "DataInicio": "06/12/2020",
+                    "DataFim": "05/12/2020"
+                }
+            ]
+        }
+    ]
+}
