@@ -1,16 +1,38 @@
 {
-  "login": {
-    "login": "32556773863",
-    "senha": "123456"
-  },
-  "classes": {
-    "login": {
-      "senha": "password",
-      "login": "loginAccess"
+  "BASE_URL_QA": "https://mercedesdealerqa.azurewebsites.net/",
+  "accsessType": [
+    {
+      "perfil": "mecanico",
+      "funcionarios": [
+        {
+          "login": "98765432100",
+          "password": "123456",
+          "txtLogin": "usuario",
+          "txtPasword": "senha"
+        }
+      ]
     },
-    "ranking": {
-      "linkMenu": "clsMenuRanking",
-      "comoFuciona": "clsComoFunciona"
+    {
+      "perfil": "vendedor",
+      "funcionarios": [
+        {
+          "login": "98765432100",
+          "password": "123456",
+          "txtLogin": "usuario",
+          "txtPasword": "senha"
+        }
+      ]
+    },
+    {
+      "perfil": "gerente",
+      "funcionarios": [
+        {
+          "login": "98765432100",
+          "password": "123456",
+          "txtLogin": "usuario",
+          "txtPasword": "senha"
+        }
+      ]
     }
-  }
+  ]
 }

@@ -6,8 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
 
-url = "https://mercedesdealerqa.azurewebsites.net/"
-
+url = "https://mercedesclubqa.azurewebsites.net/#/"
 option = Options()
 option.headless = True
 #option.binary = 'C:\Program Files\Mozilla Firefox\firefox.exe'
@@ -16,13 +15,15 @@ driver.get(url)
 time.sleep(2)
 
 
-login = driver.find_element_by_id("usuario")
-login.send_keys('32556773863')
+login = driver.find_element_by_id("userName")
+login.send_keys('287.616.890-17')
 time.sleep(2)
-password = driver.find_element_by_id("senha")
-password.send_keys('123456')
+password = driver.find_element_by_id("userPwd")
+password.send_keys('Yan@123456')
 
 
+time.sleep(5)
+driver.find_element_by_css_selector(".bt-blue").click()
 time.sleep(1)
 driver.find_element_by_css_selector(".btn-primary").click()
 
@@ -36,12 +37,12 @@ driver.find_element_by_css_selector(".mfp-close").click()
 time.sleep(2)
 # abrir menu
 driver.find_element_by_css_selector(".sidebar-title").click()
-time.sleep(2)
+# time.sleep(2)
 # Juntos na estrada
 driver.find_element_by_css_selector(".fa-chevron-down").click()
 time.sleep(2)
 # Como funciona
-driver.find_element_by_css_selector(".fa-question-circle").click()
+driver.find_element_by_css_selector(".ng-scope").click()
 # time.sleep(2)
 # driver.find_element_by_id("#perido").scrollp
 # time.sleep(4)
