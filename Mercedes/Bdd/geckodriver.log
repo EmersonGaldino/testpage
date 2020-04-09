@@ -1,12 +1,17 @@
-1586365791189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\emers\\AppData\\Local\\Temp\\rust_mozprofileUZ9i3g"
-1586365791650	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1586365791884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1586365791884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1586365791884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1586365791884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586377637633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YAN~1.MOR\\AppData\\Local\\Temp\\rust_mozprofilei60Ofe"
+1586377640796	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586377641342	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586377641342	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586377641342	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586377641343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1586365793670	Marionette	INFO	Listening on port 19459
-1586365793798	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://mercedesclub.com.br/app/app-c624c47d80.bundle.js, line 1: TypeError: t is null
-JavaScript error: https://mercedesclub.com.br/app/app-c624c47d80.bundle.js line 2 > scriptElement, line 1: TypeError: t is null
-JavaScript error: https://mesquitaloc.com.br/wp-includes/js/wp-emoji-release.min.js?ver=4.8.12, line 4: TypeError: Argument 1 of MutationObserver.observe is not an object.
+1586377644976	Marionette	INFO	Listening on port 63089
+1586377645297	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586371782054	Marionette	INFO	Stopped listening on port 62411
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tps://mesquitaloc.com.br/wp-includes/js/wp-emoji-release.min.js?ver=4.8.12, line 4: TypeError: Argument 1 of MutationObserver.observe is not an object.
