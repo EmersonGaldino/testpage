@@ -12,4 +12,4 @@ def after_step(context, step):
 
 
 def after_all(context):
-    pass  # context.web.quit()
+    context.web.quit()
