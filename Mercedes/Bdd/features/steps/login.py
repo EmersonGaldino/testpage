@@ -21,11 +21,17 @@ def step_impl(context):
     time.sleep(10)
 
 
-@when(u'login realizado')  # Representante legal
+@when(u'login realizado')  # Motorista Autônomo
 def step_impl(context):
-    pass
+    context.web.get(context.base_url + "juntosNaEstrada/comofunciona")
+    time.sleep(5)
 
 
 @then(u'o perfil esta correto')
 def step_impl(context):
-    pass
+    print(context.web.find_element_by_css_selector(
+        ".user-profile > span"))
+    # assert context.web.find_element_by_css_selector(
+    # ".user-profile > span") == "Motorista Autônomo"
+
+    context.web.get(context.base_url + "promocoes/juntosNaEstrada/promocao")

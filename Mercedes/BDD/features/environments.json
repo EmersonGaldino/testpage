@@ -1,0 +1,9 @@
+{
+  "HOST": "https://mercedesclubqa.azurewebsites.net/#/",
+  "Login": {
+    "USER_NAME": "28761689017",
+    "PASSWORD": "Yan@123456",
+    "TXT_USER": "userName",
+    "TXT_PASSWORD": "userPwd"
+  }
+}
