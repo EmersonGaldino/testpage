@@ -29,9 +29,6 @@ def step_impl(context):
 
 @then(u'o perfil esta correto')
 def step_impl(context):
-    print(context.web.find_element_by_css_selector(
-        ".user-profile > span"))
-    # assert context.web.find_element_by_css_selector(
-    # ".user-profile > span") == "Motorista Autônomo"
-
+   # assert context.web.find_element_by_css_selector(
+    #   ".user-profile > span") == "Motorista Autônomo"
     context.web.get(context.base_url + "promocoes/juntosNaEstrada/promocao")

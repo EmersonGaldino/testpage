@@ -1,4 +1,14 @@
 from selenium import webdriver
+# import json
+
+
+# def read_json():
+#     with open('data.json', 'r') as file:
+#         return json.load(file)
+
+
+# data = read_json()
+# print(data)
 
 
 def before_all(context):
@@ -12,4 +22,4 @@ def after_step(context, step):
 
 
 def after_all(context):
-    context.web.quit()
+    pass  # context.web.quit()
