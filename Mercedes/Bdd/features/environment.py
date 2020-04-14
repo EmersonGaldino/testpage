@@ -7,6 +7,7 @@ from selenium import webdriver
 #         return json.load(file)
 
 
+
 # data = read_json()
 # print(data)
 
