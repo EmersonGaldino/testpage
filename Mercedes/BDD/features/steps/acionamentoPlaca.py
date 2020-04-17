@@ -17,8 +17,16 @@ def step_impl(context):
 
 @when(u'Clico no acione aqui')
 def step_impl(context):
-    context.web.find_element_by_class_name(
-        "btn-premio-instantaneo").click()
+    count = 0
+    while (count < 2):
+        context.web.find_element_by_class_name(
+            "btn-premio-instantaneo").click()
+        time.sleep(10)
+        context.web.find_element_by_class_name(
+            "close").click()
+    # context.web.find_element_by_class_name("close").click()
+        time.sleep(5)
+        count = count + 1
 
 
 @when(u'E ganho premio')

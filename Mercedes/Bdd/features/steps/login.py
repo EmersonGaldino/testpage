@@ -25,6 +25,8 @@ def step_impl(context):
 def step_impl(context):
     context.web.get(context.base_url + "juntosNaEstrada/comofunciona")
     time.sleep(5)
+    # assert context.web.find_element_by_xpath(
+    # "//div[@class='user-profile']/span[1]") == "Motorista Autônomo"
 
 
 @then(u'o perfil esta correto')
