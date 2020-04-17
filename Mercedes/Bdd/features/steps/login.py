@@ -33,3 +33,4 @@ def step_impl(context):
 
     #   ".user-profile > span") == "Motorista Autônomo"
     context.web.get(context.base_url + "promocoes/juntosNaEstrada/promocao")
+    time.sleep(5)

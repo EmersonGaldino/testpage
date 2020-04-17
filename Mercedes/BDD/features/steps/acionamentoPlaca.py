@@ -10,21 +10,19 @@ def step_impl(context):
 
 @when(u'Tenha o botao acione aqui')
 def step_impl(context):
-    assert context.web.find_element_by_class(
-        "btn btn-premio-instantaneo ng-scope").click()
+    assert context.web.find_element_by_css_selector(
+        "btn-premio-instantaneo")
+    time.sleep(4)
 
-
-time.sleep(4)
 
 
 @when(u'Clico no acione aqui')
 def step_impl(context):
-    context.element = context.web.find_element_by_class(
-        "btn btn-premio-instantaneo ng-scope")
+    context.web.find_element_by_css_selector(
+        "btn-premio-instantaneo")
     context.element.click()
+    time.sleep(4)
 
-
-time.sleep(4)
 
 
 @when(u'E ganho premio')
