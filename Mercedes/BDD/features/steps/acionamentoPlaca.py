@@ -10,19 +10,15 @@ def step_impl(context):
 
 @when(u'Tenha o botao acione aqui')
 def step_impl(context):
-    assert context.web.find_element_by_css_selector(
+    assert context.web.find_element_by_class_name(
         "btn-premio-instantaneo")
-    time.sleep(4)
-
+    # time.sleep(4)
 
 
 @when(u'Clico no acione aqui')
 def step_impl(context):
-    context.web.find_element_by_css_selector(
-        "btn-premio-instantaneo")
-    context.element.click()
-    time.sleep(4)
-
+    context.web.find_element_by_class_name(
+        "btn-premio-instantaneo").click()
 
 
 @when(u'E ganho premio')
